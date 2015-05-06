@@ -1,0 +1,14 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Mastery28
+
+print()
+nombre = (str(input("Dime tu nombre: ")))
+color = (str(input("Dime tu color favorito: ")))
+materia = (str(input("Dime tu materia favorita: ")))
+
+print()
+print("Te llamas ",nombre)
+print("Tu color favorito es el ",color)
+print("Tu materia favorita es ",materia)
+
