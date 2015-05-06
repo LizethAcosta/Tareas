@@ -1,0 +1,31 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Mastery22
+
+def ForFunc(x):
+    for element in r:
+        o = element+1
+    return o
+
+
+def WhileFunc(x):
+    while x>0:
+        y = x-1
+    return y
+
+def RecursionFunc(x):
+    p = 0
+    if x>0:
+        p = 1 + RecursionFunc(x)
+    return p
+
+
+r=(1,2,3,4,5,6,7,8,9)
+k = 5
+
+print("Hola")
+print("For:",ForFunc(r))
+print()
+print("While:", WhileFunc(k))
+print()
+print("Recursion:",RecursionFunc(k))
