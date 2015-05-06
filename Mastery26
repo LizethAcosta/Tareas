@@ -1,0 +1,10 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Mastery26
+
+r = ("Hola ,Mundo ")
+o = ("Ken ,Bauer ")
+
+print (r+o)
+print (r[5:11])
+print (o*2)
