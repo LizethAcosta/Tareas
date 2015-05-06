@@ -1,0 +1,10 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Mastery27
+
+Nombres = {"Comienza con J": "Jose","Comienza con E": "Eduardo","Comienza con V":"Victor"};
+
+print()
+print (Nombres["Comienza con J"]);
+print (Nombres["Comienza con E"]);
+print (Nombres["Comienza con V"]);
