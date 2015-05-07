@@ -1,0 +1,24 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Mastery29
+
+def validNum(num):
+    if num < 0:
+        print ("%s is not positive. Try again." % num)
+        return 0
+    elif num > 9:
+        print ("%s has more than one digit. Try again." % num)
+        return 0
+    else:
+        return 1
+
+def getInput(num):
+    while 1:
+        num = (input("Enter a positive one-digit integer: "))
+        if validNum(int(num)):
+            break
+    print ("You're right. %s is a positive one-digit integer." % num)
+    return
+
+validNum(5)
+getInput(5)
